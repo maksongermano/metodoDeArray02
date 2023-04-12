@@ -4,7 +4,7 @@ const arquivos = [
     'contrato de locação',
     'ilustrador'
 ];
-
+// some testa para ver se pelo menos um elemento passa 
 const antivirus = (arayArquivos) => {
     const resultado = arayArquivos.some((arquivo) => {
         const existeExtenção = arquivo.indexOf('bat');
