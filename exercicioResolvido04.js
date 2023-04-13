@@ -8,10 +8,10 @@ const objetos = [
     { nome: "Rafael", stack: "backend" }
 ];
 const profBack = objetos.filter((professor) => {
-    return professor.stack === 'backend'
+    return professor.stack === 'backend';
 });
 const profFront = objetos.filter((professor) => {
-    return professor === 'frontend'
+    return professor.stack === 'frontend';
 });
-console.log(profBack)
 console.log(profFront)
+console.log(profBack)

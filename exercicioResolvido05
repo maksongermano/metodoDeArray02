@@ -1,0 +1,29 @@
+const produtos = [
+    { nome: 'Notebook Apple MacBook Pro 16"', preco: 3599900 },
+    { nome: 'Monitor Alienware AW3821DW', preco: 1399900 },
+    { nome: 'Teclado Mecânico Logitech G Pro X', preco: 79900 },
+    { nome: 'Mouse Razer Viper Ultimate', preco: 119900 },
+    { nome: 'Fone de Ouvido Sony WH-1000XM4', preco: 249900 },
+    { nome: 'Webcam Logitech Brio 4K Pro', preco: 189900 },
+    { nome: 'Cadeira Gamer Herman Miller Embody', preco: 2000000 },
+    { nome: 'Mesa Gamer Cougar Mars 120', preco: 409900 },
+    { nome: 'Placa de Vídeo NVIDIA GeForce RTX 3090', preco: 2999900 },
+    { nome: 'Processador Intel Core i9-11900K', preco: 429900 },
+    { nome: 'Memória RAM G.Skill Trident Z RGB 64GB (4x16GB)', preco: 254900 },
+    { nome: 'SSD Samsung 980 Pro 2TB', preco: 1069900 },
+    { nome: 'Fonte Corsair AX1600i', preco: 399900 },
+    { nome: 'Gabinete Lian Li PC-O11 Dynamic XL', preco: 169900 },
+    { nome: 'Sistema Operacional Windows 10 Pro', preco: 79900 },
+    { nome: 'carninha', preco: 500 }
+];
+
+
+const produtosDescontos = produtos.map((produto) => {
+    return {
+        nome: produto.nome,
+        preco: produto.preco,
+        desconto: produto.preco * 0.1
+    }
+});
+
+console.log(produtosDescontos)
