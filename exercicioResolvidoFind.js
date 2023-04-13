@@ -6,6 +6,8 @@ const pessoa = [
     { nome: 'lucas', idade: 19 },
 ];
 const nomes = ['maria', 'pedro', 'makson', 'italo']
+
+
 // const resultado= pessoa.find((usuario)=>{
 // return usuario.nome === 'maria';
 // })
@@ -14,3 +16,5 @@ const resultado = nomes.find((nome) => {
     return nome === 'maria';
 })
 console.log(resultado)
+
+// ele sempre retorna o que você pedir na função callback, seja um objeto, string ou números 
